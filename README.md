@@ -3,7 +3,7 @@ MoonOS Scripts
 In questo repository ci sono gli script nativi usati su MoonOS v1.2 Aurora per gestire, aggiornare e ottimizzare il sistema direttamente dal terminale.
 Elenco degli script
 
-    moon-upgrade: Gestisce gli aggiornamenti di sistema in sicurezza sincronizzando i pacchetti dai mirror di Arch Linux.
+    moon-upgrade: Gestisce gli aggiornamenti di sistema in sicurezza sincronizzando i pacchetti dai mirror di CachyOS.
 
     moonos-boost: Svuota la cache, ottimizza la gestione della ZRAM e spinge la CPU al massimo delle prestazioni per dare una sferzata di velocità al PC.
 
