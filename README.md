@@ -7,7 +7,7 @@ Elenco degli script
 
     moonos-boost: Svuota la cache, ottimizza la gestione della ZRAM e spinge la CPU al massimo delle prestazioni per dare una sferzata di velocità al PC.
 
-    moonos-control: Un pannello di controllo testuale che permette di regolare al volo le impostazioni grafiche e le configurazioni principali.
+    moonos-control: Una CLI UI per gestire servizi systemd ottimizare performance (Per vecchi  CPU tipo:vecchi Core 2 Duo o dei vecchi Intel Pentium T4x00 e Verificare lo stato della ZRAM.
 
     moonos-report: Genera un report rapido sullo stato dell'hardware, sull'uso della memoria RAM e sui consumi generali del sistema.
 
