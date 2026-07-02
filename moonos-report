@@ -1,0 +1,13 @@
+#!/bin/bash
+REPORT_FILE="$HOME/Desktop/moonos-hardware-report.txt"
+echo "=== MOONOS 1.2 HARDWARE REPORT ===" > "$REPORT_FILE"
+echo "Data Generazione: $(date)" >> "$REPORT_FILE"
+echo -e "\n--- PROCESSORE ---" >> "$REPORT_FILE"
+lscpu | grep 'Model name' >> "$REPORT_FILE"
+echo -e "\n--- DISPOSITIVI DI MEMORIA COMPRESSA ZRAM ---" >> "$REPORT_FILE"
+zramctl >> "$REPORT_FILE"
+echo -e "\n--- STATO UTILIZZO RAM ---" >> "$REPORT_FILE"
+free -h >> "$REPORT_FILE"
+echo -e "\n--- TABELLA PARTIZIONI ---" >> "$REPORT_FILE"
+df -h >> "$REPORT_FILE"
+echo "Report salvato sul tuo Desktop: moonos-hardware-report.txt"

@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "=== MoonOS Update Manager ==="
+echo "Controllo aggiornamenti in corso dalle repository di MoonOS e CachyOS..."
+sudo cachyos-rate-mirrors && sudo pacman -Syu

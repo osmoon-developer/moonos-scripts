@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "=== MoonOS Control Center ==="
+echo "1) Gestisci Servizi Systemd"
+echo "2) Ottimizzazioni Performance Intel/Pentium"
+echo "3) Verifica Stato ZRAM"
+echo "4) Esci"
+read -p "Scegli un'opzione: " opt
+case $opt in
+    1) systemctl list-units --type=service --state=running ;;
+    2) echo "Ottimizzazioni già attive per corebore/cachyos." ;;
+    3) zramctl ;;
+    *) echo "Uscita." ;;
+esac
